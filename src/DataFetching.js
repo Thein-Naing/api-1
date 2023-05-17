@@ -12,8 +12,8 @@ export default function DataFetching() {
   }
 
   useEffect(()=> {
-    axios.get(`https://jsonplaceholder.typicode.com/posts/${idFromButtonClick}`).
-    then( res =>{
+    axios.get(`https://jsonplaceholder.typicode.com/posts/${idFromButtonClick}`)
+    .then( res =>{
       console.log(res)
       setPost(res.data);
       })
