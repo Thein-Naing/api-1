@@ -1,3 +1,5 @@
+ai fetching using axios and you can check final site here: https://api-fetching-axios.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
