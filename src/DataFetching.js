@@ -20,7 +20,7 @@ export default function DataFetching() {
       .catch(err => {
         console.log(err)
     })
-  }, [id])
+  }, [idFromButtonClick])
 
   return (
 
