@@ -5,6 +5,7 @@ export default function DataFetching() {
 
   const [post, setPost] = useState({});
   const [id, setId] = useState(1);
+  const [idFromButtonClick, setIdFromButtonClick ] = useState(1);
 
   useEffect(()=> {
     axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`).
