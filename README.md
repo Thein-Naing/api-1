@@ -1,4 +1,4 @@
-ai fetching using axios and you can check final site here: https://api-fetching-axios.netlify.app/
+api fetching using axios and you can check final site here: https://api-fetching-axios.netlify.app/
 
 # Getting Started with Create React App
 
